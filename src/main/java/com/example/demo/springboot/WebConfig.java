@@ -64,11 +64,11 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         return new ServletListenerRegistrationBean<ListenerTest>(new ListenerTest());
     }
     
-    @Autowired
-    private TimeInterceptor timeInterceptor;
-    
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(timeInterceptor);
-    }
+//    @Autowired
+//    private TimeInterceptor timeInterceptor;
+//    
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(timeInterceptor);
+//    }
 }
