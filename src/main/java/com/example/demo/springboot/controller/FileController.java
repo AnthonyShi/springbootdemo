@@ -22,7 +22,7 @@ import com.example.demo.springboot.bean.FileInfo;
 @RestController
 @RequestMapping("/file")
 public class FileController {
-	private String path = "d:\\";
+	private String path = "E:\\";
 
     @PostMapping
     public FileInfo upload(MultipartFile file) throws Exception {

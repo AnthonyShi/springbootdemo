@@ -13,7 +13,8 @@ public class FreemarkerController {
     public String hello(Map<String,Object> map) {
         
         map.put("msg", "Hello Freemarker");
-        return map.get("msg").toString();
+//        return map.get("msg").toString();
+        return "hello";
     }
 
 }

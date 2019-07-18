@@ -52,7 +52,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         TimeFilter timeFilter = new TimeFilter();
         registrationBean.setFilter(timeFilter);
         
-        List<String> urls = new ArrayList<>();
+        List<String> urls = new ArrayList<String>();
         urls.add("/*");
         registrationBean.setUrlPatterns(urls);
         
